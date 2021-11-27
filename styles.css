@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 18px;
+}
+.song_container{
+  margin: 20px;
+}
+.song_video{
+  margin-bottom: 20px;
+}
+.song_line a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+.song_line a:hover{
+  background-color: rgb(240, 240, 240);
+}
+.song_line div{
+  margin-bottom: 3px;
+}
