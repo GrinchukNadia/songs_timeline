@@ -14,68 +14,310 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="song_container">
-      <iframe
-        class="song_video"
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/JMXltI8H9e8"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        name="rez"
-      ></iframe>
+    <div class="main_container">
+      <div class="grammar__container container">
+        <h1>Урок 1</h1>
+        <h2>Грамматика</h2>
+        <br />
+        <p>Личные местоимения</p>
+        <br />
+        <div class="gramma_table">
+          <div class="table_line">
+            <div class="table_cell"></div>
+            <div class="table_cell">Ед. ч.</div>
+            <div class="table_cell"></div>
+            <div class="table_cell">Мн. ч.</div>
+            <div class="table_cell"></div>
+          </div>
+          <div class="table_line">
+            <div class="table_cell">1. лицо</div>
+            <div class="table_cell">मैं</div>
+            <div class="table_cell">я</div>
+            <div class="table_cell">हम</div>
+            <div class="table_cell">мы (часто в поэзии: я)</div>
+          </div>
+          <div class="table_line">
+            <div class="table_cell">2. лицо</div>
+            <div class="table_cell">तू</div>
+            <div class="table_cell">
+              ты (невежливое или очень интимное обращение)
+            </div>
+            <div class="table_cell">तुम</div>
+            <div class="table_cell">ты, вы (обращение к равным)</div>
+          </div>
+          <div class="table_line">
+            <div class="table_cell"></div>
+            <div class="table_cell"></div>
+            <div class="table_cell"></div>
+            <div class="table_cell">आप</div>
+            <div class="table_cell">Вы (вежливое обращение)</div>
+          </div>
+          <div class="table_line">
+            <div class="table_cell">3. лицо</div>
+            <div class="table_cell">यह</div>
+            <div class="table_cell">он, она, оно (вблизи)</div>
+            <div class="table_cell">ये</div>
+            <div class="table_cell">они (вблизи)</div>
+          </div>
+          <div class="table_line">
+            <div class="table_cell"></div>
+            <div class="table_cell">वह</div>
+            <div class="table_cell">он, она, оно (вдалеке)</div>
+            <div class="table_cell">वे*</div>
+            <div class="table_cell">они (вдалеке)</div>
+          </div>
+        </div>
+        <div class="annotation">
+          *Вместо वे в современном языке чаще используется местоимение ед.ч. वह
+          vo.
+        </div>
+      </div>
+      <div class="words_with_song container">
+        <div class="new_words__container">
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound01" src="naye_shabd.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound01').play();"
+              >
+                नए शब्द
+              </button>
+            </div>
+            <div class="new_words__word">naye śabd</div>
+            <div class="new_words__word">Новые слова</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound02" src="aksar.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound02').play();"
+              >
+                अक्सर
+              </button>
+            </div>
+            <div class="new_words__word">aksar</div>
+            <div class="new_words__word">часто</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound03" src="agar.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound03').play();"
+              >
+                अगर
+              </button>
+            </div>
+            <div class="new_words__word">agar</div>
+            <div class="new_words__word">если, коль</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound04" src="atkheli.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound04').play();"
+              >
+                अठखेली
+              </button>
+            </div>
+            <div class="new_words__word">aṭhkhelī</div>
+            <div class="new_words__word">веселье, кокетство</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound05" src="ada.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound05').play();"
+              >
+                अदा
+              </button>
+            </div>
+            <div class="new_words__word">adā</div>
+            <div class="new_words__word">выполнение, исполнение, оплата</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound06" src="adavat.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound06').play();"
+              >
+                अदावत
+              </button>
+            </div>
+            <div class="new_words__word">adāvat</div>
+            <div class="new_words__word">враждебность, ненависть</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound07" src="adavat_karna.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound07').play();"
+              >
+                अदावत करना
+              </button>
+            </div>
+            <div class="new_words__word">adāvat karnā</div>
+            <div class="new_words__word">враждовать, ненавидеть</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound08" src="adhura.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound08').play();"
+              >
+                अधूरा
+              </button>
+            </div>
+            <div class="new_words__word">adhūrā</div>
+            <div class="new_words__word">незаконченный, неполный</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound09" src="andha.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound09').play();"
+              >
+                अंधा
+              </button>
+            </div>
+            <div class="new_words__word">aṁdhā</div>
+            <div class="new_words__word">слепой</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound10" src="behera.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound10').play();"
+              >
+                बहरा
+              </button>
+            </div>
+            <div class="new_words__word">bæhrā</div>
+            <div class="new_words__word">глухой</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound11" src="andha_behra.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound11').play();"
+              >
+                अंधा-बहरा
+              </button>
+            </div>
+            <div class="new_words__word">aṁdhā-bæhrā</div>
+            <div class="new_words__word">слепо-глухой</div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound12" src="andhir.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound12').play();"
+              >
+                अंधेर
+              </button>
+            </div>
+            <div class="new_words__word">aṁdher</div>
+            <div class="new_words__word">
+              беззаконие, несправедливость, насилие
+            </div>
+          </div>
+          <div class="new_words__line">
+            <div class="new_words__word">
+              <audio id="sound13" src="andhera.mp3" preload="auto"></audio>
+              <button
+                class="word"
+                onclick="document.getElementById('sound13').play();"
+              >
+                अंधेरा
+              </button>
+            </div>
+            <div class="new_words__word">aṁdherā</div>
+            <div class="new_words__word">тёмный, мрачный</div>
+          </div>
+        </div>
+        <div class="song_container">
+          <iframe
+            class="song_video"
+            src="https://www.youtube.com/embed/JMXltI8H9e8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            name="rez"
+          ></iframe>
 
-      <ol>
-        <li class="song_line">
-          <a
-            class="55"
-            href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=31"
-            target="rez"
-            >दिल की दुनिया बसा के सावरिया</a
-          >
-          <div>dil kī duniyā basā ke sāṁvariyā</div>
-          <div>Похитив мое сердце, о мой Кришна,</div>
-        </li>
-        <li class="song_line">
-          <a
-            class="55"
-            href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=35"
-            target="rez"
-            >दिल की दुनिया बसा के सावरिया</a
-          >
-          <div>dil kī duniyā basā ke sāṁvariyā</div>
-          <div>Похитив мое сердце, о мой Кришна,</div>
-        </li>
-        <li class="song_line">
-          <a
-            href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=40"
-            target="rez"
-            >तुम ना जाने कहा खो गए खो गए</a
-          >
-          <div>tum na jāne kahām̐ kho gae kho gae</div>
-          <div>ты неизвестно куда запропастился,</div>
-        </li>
-        <li class="song_line">
-          <a
-            href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=46"
-            target="rez"
-            >साथ रहना था सारी उमरिया</a
-          >
-          <div>sāth rehnā thā sārī umariyā</div>
-          <div>нам хотелось быть вместе всю жизнь,</div>
-        </li>
-        <li class="song_line">
-          <a
-            href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=51"
-            target="rez"
-            >दूर नजरों से क्यों हो गए हो गए</a
-          >
-          <div>dūr nazroṁ se kyoṁ ho gae</div>
-          <div>так зачем же ты у меня сгинул с глаз долой?</div>
-        </li>
-      </ol>
+          <div class="lyrics_list">
+            <div class="song_line">
+              <div>
+                <a
+                  class="55"
+                  href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=31"
+                  target="rez"
+                  >दिल की दुनिया बसा के सावरिया</a
+                >
+                <div>dil kī duniyā basā ke sāṁvariyā</div>
+              </div>
+              <div>Похитив мое сердце, о мой Кришна,</div>
+            </div>
+            <div class="song_line">
+              <div>
+                <a
+                  class="55"
+                  href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=35"
+                  target="rez"
+                  >दिल की दुनिया बसा के सावरिया</a
+                >
+                <div>dil kī duniyā basā ke sāṁvariyā</div>
+              </div>
+              <div>Похитив мое сердце, о мой Кришна,</div>
+            </div>
+            <div class="song_line">
+              <div>
+                <a
+                  href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=40"
+                  target="rez"
+                  >तुम ना जाने कहा खो गए खो गए</a
+                >
+                <div>tum na jāne kahām̐ kho gae kho gae</div>
+              </div>
+              <div>ты неизвестно куда запропастился,</div>
+            </div>
+            <div class="song_line">
+              <div>
+                <a
+                  href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=46"
+                  target="rez"
+                  >साथ रहना था सारी उमरिया</a
+                >
+                <div>sāth rehnā thā sārī umariyā</div>
+              </div>
+              <div>нам хотелось быть вместе всю жизнь,</div>
+            </div>
+            <div class="song_line">
+              <div>
+                <a
+                  href="//www.youtube.com/embed/JMXltI8H9e8?rel=1&autoplay=1&start=51"
+                  target="rez"
+                  >दूर नजरों से क्यों हो गए हो गए</a
+                >
+                <div>dūr nazroṁ se kyoṁ ho gae</div>
+              </div>
+              <div>так зачем же ты у меня сгинул с глаз долой?</div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script type="module" src="index.js"></script>
