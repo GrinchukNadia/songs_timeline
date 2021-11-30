@@ -4,18 +4,23 @@
   padding: 0;
   font-family: sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:rgba(247, 247, 247, 0.534);
+  background-color: rgba(247, 247, 247, 0.534);
 }
-.main_container{
-  min-width: 1300px;
+.main_container {
+  width: 1300px;
 }
 .container {
   background-color: #fff;
@@ -32,14 +37,13 @@ body{
   max-width: 500px;
   height: 300px;
 }
-.song_line{
+.song_line {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
 }
-.song_line:hover{
-  background-color:rgba(235, 235, 235, 0.219);
-  cursor: pointer;
+.song_line:hover {
+  background-color: rgba(235, 235, 235, 0.219);
 }
 .song_line a {
   display: inline-block;
@@ -55,14 +59,32 @@ body{
 .song_line div {
   margin-bottom: 3px;
 }
-.annotation{
+.lesson_number {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.lesson_grammar {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.lesson_theme {
+  margin-bottom: 18px;
+}
+.gramma_table {
+  margin-bottom: 24px;
+}
+.annotation {
   margin-top: 10px;
+}
+.annotation div {
+  margin-bottom: 12px;
 }
 .table_line {
   display: flex;
   flex-direction: row;
 }
 .table_cell {
+  background-color: #fff;
   width: 100%;
   max-width: 280px;
   padding: 8px;
@@ -74,8 +96,14 @@ body{
 }
 .table_cell:first-child,
 .table_cell:nth-child(2),
-.table_cell:nth-child(4){
-  width: 100px;
+.table_cell:nth-child(4) {
+  min-width: 65px;
+  max-width: 100px;
+}
+.table_cell:nth-child(3),
+.table_cell:nth-child(5) {
+  min-width: 125px;
+  max-width: 440px;
 }
 .word {
   border: none;
@@ -84,39 +112,73 @@ body{
   outline: none;
   border-bottom: 2px rgb(192, 192, 192) dashed;
 }
-
+audio {
+  margin-bottom: 26px;
+  width: 100%;
+}
 .words_with_song {
   display: flex;
 }
 .song_container {
   width: 50%;
 }
-.new_words__container{
+.new_words__container {
   width: 50%;
 }
-.new_words__line{
+.new_words__line {
   display: flex;
   margin-bottom: 20px;
   padding: 2px;
 }
-.new_words__line:hover{
-  background-color:rgb(235, 235, 235);
-  cursor: pointer;
+.new_words__line:hover {
+  background-color: rgb(235, 235, 235);
 }
-.new_words__word{
+.new_words__word {
   margin-right: 8px;
 }
-.new_words__line:first-child .new_words__word{
+.new_words__line:first-child .new_words__word {
   font-size: 20px;
   font-weight: bold;
 }
 .new_words__word:first-child,
-.new_words__word:nth-child(2){
+.new_words__word:nth-child(2) {
   width: 120px;
 }
-.song_line>div:first-child{
+.song_line > div:first-child {
   width: 48%;
 }
-.song_line>div:nth-child(2) {
+.song_line > div:nth-child(2) {
   width: 52%;
+}
+
+.next_btn__container {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.next_btn__container button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1170px) {
+  .main_container {
+    min-width: 100%;
+  }
+  .words_with_song {
+    flex-direction: column;
+  }
+  .new_words__container {
+    margin-bottom: 20px;
+  }
+  .new_words__container,
+  .song_container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 890px) {
+}
+@media screen and (max-width: 581px) {
+  .new_words__line,
+  .song_line {
+    flex-direction: column;
+  }
 }
