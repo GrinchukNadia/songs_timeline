@@ -174,11 +174,15 @@ audio {
     width: 100%;
   }
 }
-@media screen and (max-width: 890px) {
-}
 @media screen and (max-width: 581px) {
   .new_words__line,
   .song_line {
     flex-direction: column;
+  }
+  .song_line > div:first-child {
+  width: 100%;
+  }
+  .song_line > div:nth-child(2) {
+  width: 100%;
   }
 }
