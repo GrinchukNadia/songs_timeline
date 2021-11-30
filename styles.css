@@ -72,6 +72,7 @@ body {
 }
 .gramma_table {
   margin-bottom: 24px;
+  overflow: scroll;
 }
 .annotation {
   margin-top: 10px;
@@ -180,9 +181,9 @@ audio {
     flex-direction: column;
   }
   .song_line > div:first-child {
-  width: 100%;
+    width: 100%;
   }
   .song_line > div:nth-child(2) {
-  width: 100%;
+    width: 100%;
   }
 }
