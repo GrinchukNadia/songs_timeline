@@ -48,8 +48,8 @@ export const lesson03 = {
     link: 'audio_lesson_03/03_are_yeh_kya_kiya_tune',
     name: 'are_yeh_kya_kiya',
     start: 0,
-    end: 28,
-    linesStart: [1, 12, 19, 24],
+    end: 28.2,
+    linesStart: [1, 12, 19, 23.5],
     textLinesHindi: [
       'तेरे दर से ख़ुशी माँगी',
       'मगर ग़म दे दिया तूने',

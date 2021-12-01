@@ -72,7 +72,6 @@ body {
 }
 .gramma_table {
   margin-bottom: 24px;
-  overflow: scroll;
 }
 .annotation {
   margin-top: 10px;
@@ -136,6 +135,7 @@ audio {
 }
 .new_words__word {
   margin-right: 8px;
+  max-width: 350px;
 }
 .new_words__line:first-child .new_words__word {
   font-size: 20px;
@@ -173,6 +173,11 @@ audio {
   .new_words__container,
   .song_container {
     width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .gramma_table {
+    overflow: scroll;
   }
 }
 @media screen and (max-width: 581px) {

@@ -2,7 +2,12 @@ export const playSong = (lesson) => {
   const secondSong = document.querySelector(`#${lesson.song.name}`);
 
   secondSong.addEventListener('timeupdate', () => {
-    if (Math.floor(secondSong.currentTime) === lesson.song.end) {
+    const timeInMoment = secondSong.currentTime;
+    if (
+      +timeInMoment.toFixed(1) === lesson.song.end ||
+      +timeInMoment.toFixed(1) === lesson.song.end + 0.1 ||
+      +timeInMoment.toFixed(1) === lesson.song.end + 0.2
+    ) {
       secondSong.pause();
     }
   });

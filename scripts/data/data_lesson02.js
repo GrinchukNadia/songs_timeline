@@ -36,7 +36,7 @@ export const lesson02 = {
     link: 'audio_lesson_02/02_Dard_Jaga_Ke_Thes_Lagake',
     name: 'dard_jaga_ke',
     start: 0,
-    end: 50,
+    end: 50.2,
     linesStart: [25, 31, 37, 43],
     textLinesHindi: [
       'दर्द जगा के ठेस लगा के',

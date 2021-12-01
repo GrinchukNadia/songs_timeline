@@ -29,7 +29,7 @@ export const lesson01 = {
     link: 'audio_lesson_01/01_Dil_Ki_Duniya_Basa_Ke_Sanwariya',
     name: 'dil_ki_duniya',
     start: 0,
-    end: 60,
+    end: 60.2,
     linesStart: [34, 39, 43, 50, 54],
     textLinesHindi: [
       'दिल की दुनिया बसा के सावरिया',
@@ -43,7 +43,7 @@ export const lesson01 = {
       'dil kī duniyā basā ke sāṁvariyā',
       'tum na jāne kahām̐ kho gae kho gae',
       'sāth rehnā thā sārī umariyā',
-      'dūr nazroṁ se kyoṁ ho gae',
+      'dūr nazroṁ se kyoṁ ho gae ho gae',
     ],
     textLinesTranslaton: [
       'Похитив мое сердце, о мой Кришна,',
