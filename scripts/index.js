@@ -13,7 +13,7 @@ const startLesson = (lesson) => {
   playSong(lesson);
 };
 
-startLesson(lesson03);
+startLesson(lesson01);
 
 const lesson1Btn = document.querySelector('.lesson1_btn')
 lesson1Btn.addEventListener('click', () => {
