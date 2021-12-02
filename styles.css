@@ -97,13 +97,20 @@ body {
 .table_cell:first-child,
 .table_cell:nth-child(2),
 .table_cell:nth-child(4) {
-  min-width: 65px;
-  max-width: 100px;
+  min-width: 158px;
+  max-width: 145px;
 }
 .table_cell:nth-child(3),
 .table_cell:nth-child(5) {
   min-width: 125px;
   max-width: 440px;
+}
+.quislet_link {
+  margin-bottom: 20px;
+  border-radius: 50px;
+  line-height: 20px;
+  background-color: rgba(241, 241, 241, 0.685);
+  padding: 18px 15px;
 }
 .word {
   border: none;
@@ -124,6 +131,7 @@ audio {
 }
 .new_words__container {
   width: 50%;
+  margin-right: 15px;
 }
 .new_words__line {
   display: flex;
@@ -169,6 +177,7 @@ audio {
   }
   .new_words__container {
     margin-bottom: 20px;
+    margin-right: 0px;
   }
   .new_words__container,
   .song_container {

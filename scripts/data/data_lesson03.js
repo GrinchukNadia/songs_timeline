@@ -70,6 +70,7 @@ export const lesson03 = {
     ],
   },
   vocabulary: {
+    quisletLing: 'https://quizlet.com/_apeirq?x=1qqt&i=1zuvh8',
     lesson: 'lesson_03',
     words: [
       'नये शब्द',

@@ -54,6 +54,7 @@ export const lesson01 = {
     ],
   },
   vocabulary: {
+    quisletLing: 'https://quizlet.com/_apeirq?x=1qqt&i=1zuvh8',
     lesson: 'lesson_01',
     words: [
       'नए शब्द',
